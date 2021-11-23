@@ -1,0 +1,52 @@
+.menu-btn {
+  display: none;
+
+}
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
+
+.service {
+  width: 100%;
+
+  &__inner {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
+  &__container {
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    &-img {
+      width: 40%;
+      margin-right: 30px;
+    }
+
+    &-text {
+      width: 60%;
+      text-align: left;
+
+      & > h4 {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.footer {
+  &__nav {
+    justify-content: center;
+
+  }
+}
